@@ -14,6 +14,7 @@
 		FBB63E462ADCBCC800A3ADF8 /* Study_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E452ADCBCC800A3ADF8 /* Study_SwiftUITests.swift */; };
 		FBB63E502ADCBCC800A3ADF8 /* Study_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E4F2ADCBCC800A3ADF8 /* Study_SwiftUIUITests.swift */; };
 		FBB63E522ADCBCC800A3ADF8 /* Study_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E512ADCBCC800A3ADF8 /* Study_SwiftUIUITestsLaunchTests.swift */; };
+		FBB63E602ADD09A200A3ADF8 /* SwiftGrammerStory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E5F2ADD09A200A3ADF8 /* SwiftGrammerStory1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FBB63E4B2ADCBCC800A3ADF8 /* Study_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Study_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB63E4F2ADCBCC800A3ADF8 /* Study_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		FBB63E512ADCBCC800A3ADF8 /* Study_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBB63E5F2ADD09A200A3ADF8 /* SwiftGrammerStory1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammerStory1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		FBB63E332ADCBCC600A3ADF8 /* Study_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FBB63E5E2ADD031900A3ADF8 /* Section 1 */,
 				FBB63E342ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift */,
 				FBB63E362ADCBCC600A3ADF8 /* ContentView.swift */,
 				FBB63E382ADCBCC800A3ADF8 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				FBB63E512ADCBCC800A3ADF8 /* Study_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = Study_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		FBB63E5E2ADD031900A3ADF8 /* Section 1 */ = {
+			isa = PBXGroup;
+			children = (
+				FBB63E5F2ADD09A200A3ADF8 /* SwiftGrammerStory1.swift */,
+			);
+			path = "Section 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				FBB63E372ADCBCC600A3ADF8 /* ContentView.swift in Sources */,
 				FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */,
+				FBB63E602ADD09A200A3ADF8 /* SwiftGrammerStory1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
