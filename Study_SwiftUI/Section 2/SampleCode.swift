@@ -65,9 +65,9 @@ struct SampleCode_Previews: PreviewProvider {
 //        SampleCode()
 
         VStack {
-            ProductRow()
-            ProductRow()
-            ProductRow()
+            ProductRow(product: productSamples[0])
+            ProductRow(product: productSamples[1])
+            ProductRow(product: productSamples[2])
         }
     }
 }
