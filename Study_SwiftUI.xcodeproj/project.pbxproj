@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FBABF7592ADE0D3100373D74 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABF7582ADE0D3100373D74 /* ProductRow.swift */; };
+		FBABF75D2ADE106D00373D74 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABF75C2ADE106D00373D74 /* ColorExtension.swift */; };
 		FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E342ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift */; };
 		FBB63E372ADCBCC600A3ADF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E362ADCBCC600A3ADF8 /* ContentView.swift */; };
 		FBB63E392ADCBCC800A3ADF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB63E382ADCBCC800A3ADF8 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		FBABF7582ADE0D3100373D74 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		FBABF75C2ADE106D00373D74 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		FBB63E312ADCBCC600A3ADF8 /* Study_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB63E342ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_SwiftUIApp.swift; sourceTree = "<group>"; };
 		FBB63E362ADCBCC600A3ADF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBABF75A2ADE105600373D74 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FBABF75B2ADE105C00373D74 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FBABF75B2ADE105C00373D74 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBABF75C2ADE106D00373D74 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		FBB63E282ADCBCC600A3ADF8 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +164,7 @@
 		FBB63E612ADD161A00A3ADF8 /* Section 2 */ = {
 			isa = PBXGroup;
 			children = (
+				FBABF75A2ADE105600373D74 /* Helper */,
 				FBB63E622ADD16AA00A3ADF8 /* SampleCode.swift */,
 				FBABF7582ADE0D3100373D74 /* ProductRow.swift */,
 			);
@@ -285,6 +304,7 @@
 				FBB63E632ADD16AA00A3ADF8 /* SampleCode.swift in Sources */,
 				FBB63E372ADCBCC600A3ADF8 /* ContentView.swift in Sources */,
 				FBABF7592ADE0D3100373D74 /* ProductRow.swift in Sources */,
+				FBABF75D2ADE106D00373D74 /* ColorExtension.swift in Sources */,
 				FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */,
 				FBB63E602ADD09A200A3ADF8 /* SwiftGrammerStory1.swift in Sources */,
 			);
