@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBABF7592ADE0D3100373D74 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABF7582ADE0D3100373D74 /* ProductRow.swift */; };
 		FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E342ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift */; };
 		FBB63E372ADCBCC600A3ADF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E362ADCBCC600A3ADF8 /* ContentView.swift */; };
 		FBB63E392ADCBCC800A3ADF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB63E382ADCBCC800A3ADF8 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		FBB63E502ADCBCC800A3ADF8 /* Study_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E4F2ADCBCC800A3ADF8 /* Study_SwiftUIUITests.swift */; };
 		FBB63E522ADCBCC800A3ADF8 /* Study_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E512ADCBCC800A3ADF8 /* Study_SwiftUIUITestsLaunchTests.swift */; };
 		FBB63E602ADD09A200A3ADF8 /* SwiftGrammerStory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E5F2ADD09A200A3ADF8 /* SwiftGrammerStory1.swift */; };
+		FBB63E632ADD16AA00A3ADF8 /* SampleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB63E622ADD16AA00A3ADF8 /* SampleCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FBABF7582ADE0D3100373D74 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		FBB63E312ADCBCC600A3ADF8 /* Study_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB63E342ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_SwiftUIApp.swift; sourceTree = "<group>"; };
 		FBB63E362ADCBCC600A3ADF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		FBB63E4F2ADCBCC800A3ADF8 /* Study_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		FBB63E512ADCBCC800A3ADF8 /* Study_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FBB63E5F2ADD09A200A3ADF8 /* SwiftGrammerStory1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammerStory1.swift; sourceTree = "<group>"; };
+		FBB63E622ADD16AA00A3ADF8 /* SampleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		FBB63E332ADCBCC600A3ADF8 /* Study_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FBB63E612ADD161A00A3ADF8 /* Section 2 */,
 				FBB63E5E2ADD031900A3ADF8 /* Section 1 */,
 				FBB63E342ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift */,
 				FBB63E362ADCBCC600A3ADF8 /* ContentView.swift */,
@@ -136,6 +141,15 @@
 				FBB63E5F2ADD09A200A3ADF8 /* SwiftGrammerStory1.swift */,
 			);
 			path = "Section 1";
+			sourceTree = "<group>";
+		};
+		FBB63E612ADD161A00A3ADF8 /* Section 2 */ = {
+			isa = PBXGroup;
+			children = (
+				FBB63E622ADD16AA00A3ADF8 /* SampleCode.swift */,
+				FBABF7582ADE0D3100373D74 /* ProductRow.swift */,
+			);
+			path = "Section 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB63E632ADD16AA00A3ADF8 /* SampleCode.swift in Sources */,
 				FBB63E372ADCBCC600A3ADF8 /* ContentView.swift in Sources */,
+				FBABF7592ADE0D3100373D74 /* ProductRow.swift in Sources */,
 				FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */,
 				FBB63E602ADD09A200A3ADF8 /* SwiftGrammerStory1.swift in Sources */,
 			);
