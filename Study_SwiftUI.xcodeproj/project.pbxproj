@@ -25,6 +25,7 @@
 		FBB9591B2AE0BAFF0085C91E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9591A2AE0BAFF0085C91E /* Store.swift */; };
 		FBB9591D2AE0BB850085C91E /* ProductData.json in Resources */ = {isa = PBXBuildFile; fileRef = FBB9591C2AE0BB850085C91E /* ProductData.json */; };
 		FBB9591F2AE0BBD40085C91E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9591E2AE0BBD40085C91E /* Home.swift */; };
+		FBB959212AE0BFAF0085C91E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959202AE0BFAF0085C91E /* ProductDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		FBB9591A2AE0BAFF0085C91E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		FBB9591C2AE0BB850085C91E /* ProductData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProductData.json; sourceTree = "<group>"; };
 		FBB9591E2AE0BBD40085C91E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FBB959202AE0BFAF0085C91E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,8 +203,9 @@
 			children = (
 				FBB959192AE0BAAC0085C91E /* Model */,
 				FBABF75A2ADE105600373D74 /* Helper */,
-				FBABF7582ADE0D3100373D74 /* ProductRow.swift */,
 				FBB9591E2AE0BBD40085C91E /* Home.swift */,
+				FBABF7582ADE0D3100373D74 /* ProductRow.swift */,
+				FBB959202AE0BFAF0085C91E /* ProductDetailView.swift */,
 			);
 			path = ActualApp;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */,
 				FBB63E602ADD09A200A3ADF8 /* SwiftGrammarStory1.swift in Sources */,
 				FBABF75F2ADE14AE00373D74 /* Product.swift in Sources */,
+				FBB959212AE0BFAF0085C91E /* ProductDetailView.swift in Sources */,
 				FBB9591F2AE0BBD40085C91E /* Home.swift in Sources */,
 				FBABF7612ADE189500373D74 /* SwiftGrammarStory.swift in Sources */,
 			);

@@ -13,7 +13,10 @@ struct Home: View {
     var body: some View {
         NavigationView {
             List(store.products) { product in
-                NavigationLink(destination: Text("상세 경보")) {
+//                NavigationLink(destination: Text("상세 경보")) {
+//                    ProductRow(product: product)
+//                }
+                NavigationLink(destination: ProductDetailView(product: product)) {
                     ProductRow(product: product)
                 }
             }.navigationTitle("과일마트")
