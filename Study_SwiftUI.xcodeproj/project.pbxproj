@@ -29,6 +29,7 @@
 		FBB959232AE0E33C0085C91E /* SwiftGrammarStory3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959222AE0E33C0085C91E /* SwiftGrammarStory3.swift */; };
 		FBB959262AE0FC600085C91E /* SampleCode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959252AE0FC600085C91E /* SampleCode4.swift */; };
 		FBB959292AE1029F0085C91E /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959282AE1029F0085C91E /* Preview.swift */; };
+		FBB9592B2AE109530085C91E /* SwiftGrammarStory4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9592A2AE109530085C91E /* SwiftGrammarStory4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		FBB959222AE0E33C0085C91E /* SwiftGrammarStory3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammarStory3.swift; sourceTree = "<group>"; };
 		FBB959252AE0FC600085C91E /* SampleCode4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCode4.swift; sourceTree = "<group>"; };
 		FBB959282AE1029F0085C91E /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		FBB9592A2AE109530085C91E /* SwiftGrammarStory4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammarStory4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				FBB959252AE0FC600085C91E /* SampleCode4.swift */,
+				FBB9592A2AE109530085C91E /* SwiftGrammarStory4.swift */,
 			);
 			path = Section4;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				FBB959262AE0FC600085C91E /* SampleCode4.swift in Sources */,
 				FBABF75D2ADE106D00373D74 /* ColorExtension.swift in Sources */,
 				FBB959182AE0B9680085C91E /* BundleExtension.swift in Sources */,
+				FBB9592B2AE109530085C91E /* SwiftGrammarStory4.swift in Sources */,
 				FBB9591B2AE0BAFF0085C91E /* Store.swift in Sources */,
 				FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */,
 				FBB959292AE1029F0085C91E /* Preview.swift in Sources */,
