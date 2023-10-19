@@ -28,6 +28,7 @@
 		FBB959212AE0BFAF0085C91E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959202AE0BFAF0085C91E /* ProductDetailView.swift */; };
 		FBB959232AE0E33C0085C91E /* SwiftGrammarStory3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959222AE0E33C0085C91E /* SwiftGrammarStory3.swift */; };
 		FBB959262AE0FC600085C91E /* SampleCode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959252AE0FC600085C91E /* SampleCode4.swift */; };
+		FBB959292AE1029F0085C91E /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB959282AE1029F0085C91E /* Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		FBB959202AE0BFAF0085C91E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		FBB959222AE0E33C0085C91E /* SwiftGrammarStory3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammarStory3.swift; sourceTree = "<group>"; };
 		FBB959252AE0FC600085C91E /* SampleCode4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCode4.swift; sourceTree = "<group>"; };
+		FBB959282AE1029F0085C91E /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				FBABF75B2ADE105C00373D74 /* Extension */,
+				FBB959272AE1028D0085C91E /* CustomView */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -231,6 +234,14 @@
 				FBB959252AE0FC600085C91E /* SampleCode4.swift */,
 			);
 			path = Section4;
+			sourceTree = "<group>";
+		};
+		FBB959272AE1028D0085C91E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FBB959282AE1029F0085C91E /* Preview.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +385,7 @@
 				FBB959182AE0B9680085C91E /* BundleExtension.swift in Sources */,
 				FBB9591B2AE0BAFF0085C91E /* Store.swift in Sources */,
 				FBB63E352ADCBCC600A3ADF8 /* Study_SwiftUIApp.swift in Sources */,
+				FBB959292AE1029F0085C91E /* Preview.swift in Sources */,
 				FBB63E602ADD09A200A3ADF8 /* SwiftGrammarStory1.swift in Sources */,
 				FBABF75F2ADE14AE00373D74 /* Product.swift in Sources */,
 				FBB959212AE0BFAF0085C91E /* ProductDetailView.swift in Sources */,
